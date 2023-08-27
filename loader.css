@@ -1,0 +1,33 @@
+body{
+    background-color: black;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 50%;
+}
+.loader{
+    
+    border: 8px solid #E50914;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border-right-color: transparent;
+    animation: revolve 0.6s linear infinite;
+}
+
+@keyframes revolve{
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+.profile-icon{
+    width: 50px;
+    height: 50px;
+    margin-right: -85px;
+    margin-top: 30px;
+}
