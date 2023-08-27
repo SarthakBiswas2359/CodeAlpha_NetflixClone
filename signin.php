@@ -2,10 +2,10 @@
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     //connect to database 
-    $servername = "localhost:3307";
-    $username = "root";
+    $servername = "localhost";
+    $username = ":::TYPE THE PASSWORD:::";
     $password = "";
-    $database = "netflix login";
+    $database = ":::TYPE YOUR DATABASE NAME HERE:::";
 
     $conn = mysqli_connect($servername, $username, $password, $database);
     //declared variables
